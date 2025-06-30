@@ -10,6 +10,19 @@
    --font-yekan : "YekanBakh", sans-serif;
 }
 
+@layer base {
+   h2 {
+      @apply text-[23px] font-bold
+   }
+}
+
+.custom-container {
+   max-width: 1300px;
+   width: 90vw;
+   margin: 0 auto;
+   height: auto;
+}
+
 @font-face {
    font-family: "YekanBakh";
    src: url("/Font/YekanBakh-VF.woff2") format("woff2-variations"),

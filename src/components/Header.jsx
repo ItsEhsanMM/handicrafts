@@ -8,7 +8,7 @@ const Header = () => {
 
    return (
       <>
-         <header className="pt-5 px-4 flex items-center justify-between">
+         <header className="pt-5 flex items-center justify-between">
             <button onClick={toggle}>
                <img
                   src={menu}
