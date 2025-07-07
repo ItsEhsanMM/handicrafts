@@ -9,7 +9,10 @@ const Header = () => {
    return (
       <>
          <header className="pt-5 flex items-center justify-between">
-            <button onClick={toggle}>
+            <button
+               className="block md:hidden"
+               onClick={toggle}
+            >
                <img
                   src={menu}
                   alt="menu"

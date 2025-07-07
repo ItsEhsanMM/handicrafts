@@ -7,7 +7,7 @@ import LassNews from "./components/lastnews";
 import Newproduct from "./components/newproduct";
 import Join from "./components/join";
 import Pupiuler from "./components/pupiuler";
-import Ghaly from "./components/ghaly";
+import Carpet from "./components/Carpet";
 import Special from "./components/Special";
 
 function App() {
@@ -19,14 +19,13 @@ function App() {
          <Header />
          <MobileNav />
          <Hero />
-         <Ghaly />
-         <Pupiuler />
+         <Special />
+         <Carpet />
+         {/* <Pupiuler />
          <Join />
          <Newproduct />
          <LassNews />
-         <Footer />
-
-         <Special />
+         <Footer /> */}
       </div>
    );
 }
