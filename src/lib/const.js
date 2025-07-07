@@ -79,7 +79,7 @@ export const imgs = [
             {
                 id: 2 ,
                 src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product17.webp" , 
-                price :  "free" ,
+                price :  0 ,
                 name : "اینه مینا کاری"
             }
             ,
@@ -132,7 +132,7 @@ export const imgs = [
             {
                 id: 2 ,
                 src : "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-10.jpg" , 
-                price :  "free" ,
+                price :  0 ,
             }
             ,
             {

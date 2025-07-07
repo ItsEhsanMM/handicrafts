@@ -38,7 +38,7 @@ const Header = () => {
                </div>
             </div>
          </header>
-         <div className="w-full h-px bg-gray-300 my-4" />
+         <div className="w-full h-px bg-gray-300" />
       </>
    );
 };

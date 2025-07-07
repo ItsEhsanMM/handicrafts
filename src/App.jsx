@@ -13,7 +13,7 @@ import Special from "./components/Special";
 function App() {
    return (
       <div
-         className="font-yekan custom-container bg-background flex flex-col space-y-20"
+         className="font-yekan custom-container bg-background flex flex-col space-y-10"
          dir="rtl"
       >
          <Header />
@@ -21,11 +21,11 @@ function App() {
          <Hero />
          <Special />
          <Carpet />
-         {/* <Pupiuler />
-         <Join />
+         {/* <Pupiuler /> */}
+         {/* <Join /> */}
          <Newproduct />
-         <LassNews />
-         <Footer /> */}
+         {/* <LassNews /> */}
+         {/* <Footer /> */}
       </div>
    );
 }

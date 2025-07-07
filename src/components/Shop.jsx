@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Addto from "./addto";
 import Footer from "./Footer";
 import { imgs } from "../lib/const";
 import Product from "./product";
