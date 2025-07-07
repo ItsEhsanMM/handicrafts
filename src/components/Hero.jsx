@@ -61,8 +61,16 @@ const Hero = () => {
          >
             {info.map((item) => (
                <SwiperSlide>
-                  <div className="border bg-box rounded-xl flex flex-col h-full justify-between py-15 items-center px-5 text-center">
-                     <h2 className="text-lg">{item.title}</h2>
+                  <div className="border relative rounded-xl flex flex-col h-full justify-between py-15 items-center px-5 text-center">
+                     <div className="absolute size-full">
+                        <img
+                           src=""
+                           alt=""
+                        />
+                     </div>
+                     <h2 className="text-[clamp(18px,5vw,25px)]">
+                        {item.title}
+                     </h2>
                      <p className="text-[14px] px-5">{item.description}</p>
                      <Link
                         className="bg-primary text-text hover:bg-secondary transition-colors py-2 px-4 rounded-xl"
