@@ -5,7 +5,7 @@ import MobileNav from "./components/MobileNav";
 import Footer from "./components/Footer";
 import LassNews from "./components/lastnews";
 import Newproduct from "./components/newproduct";
-import Join from "./components/join";
+import Join from "./components/Newsletter";
 import Carpet from "./components/Carpet";
 import Special from "./components/Special";
 import Popular from "./components/Popular";
@@ -22,7 +22,7 @@ function App() {
          <Special />
          <Carpet />
          <Popular />
-         {/* <Join /> */}
+         <Join />
          <Newproduct />
          {/* <LassNews /> */}
          {/* <Footer /> */}
