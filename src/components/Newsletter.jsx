@@ -2,7 +2,7 @@ import media from "../assets/icons/media-left.svg";
 
 export default function Newsletter() {
    return (
-      <div className="relative w-full rounded-2xl overflow-hidden bg-primary">
+      <div className="relative w-full rounded-2xl overflow-hidden bg-secondary">
          <div className="relative z-10 flex flex-col items-center text-center px-4 py-[clamp(2rem,5vw,4rem)]">
             <h2 className="text-white font-bold text-[clamp(1.5rem,4vw,2.5rem)]">
                عضویت در خبرنامه سایت
@@ -22,7 +22,7 @@ export default function Newsletter() {
                </div>
                <button
                   type="submit"
-                  className="bg-secondary flex items-center justify-center rounded-xl px-4 h-[clamp(2.5rem,6vw,4rem)]"
+                  className="bg-primary flex items-center justify-center rounded-xl px-4 h-[clamp(2.5rem,6vw,4rem)]"
                >
                   <img
                      src={media}

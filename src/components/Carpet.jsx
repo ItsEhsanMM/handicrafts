@@ -18,7 +18,7 @@ export default function Carpet() {
                <span className="text-[clamp(18px,3vw,100px)]">
                   همین حالا خرید کنید...
                </span>
-               <div className="bg-secondary rounded-2xl py-2 px-4">
+               <div className="bg-primary rounded-2xl py-2 px-4">
                   <span className="text-[clamp(12px,1.5vw,50px)]">
                      مشاهده فروشگاه
                   </span>

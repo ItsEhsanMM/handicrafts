@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import MobileNav from "./components/MobileNav";
 
 import Footer from "./components/Footer";
-import LassNews from "./components/lastnews";
+import LastNews from "./components/LastNews";
 import Newproduct from "./components/newproduct";
 import Join from "./components/Newsletter";
 import Carpet from "./components/Carpet";
@@ -24,7 +24,7 @@ function App() {
          <Popular />
          <Join />
          <Newproduct />
-         {/* <LassNews /> */}
+         <LastNews />
          {/* <Footer /> */}
       </div>
    );
