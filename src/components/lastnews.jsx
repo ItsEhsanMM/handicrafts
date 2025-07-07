@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./title";
+import Title from "./Title";
 import { imgs } from "../lib/const";
 const Ask = imgs[1].mobile;
 export default function LassNews() {

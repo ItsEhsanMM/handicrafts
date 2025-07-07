@@ -6,9 +6,9 @@ import Footer from "./components/Footer";
 import LassNews from "./components/lastnews";
 import Newproduct from "./components/newproduct";
 import Join from "./components/join";
-import Pupiuler from "./components/pupiuler";
 import Carpet from "./components/Carpet";
 import Special from "./components/Special";
+import Popular from "./components/Popular";
 
 function App() {
    return (
@@ -21,7 +21,7 @@ function App() {
          <Hero />
          <Special />
          <Carpet />
-         {/* <Pupiuler /> */}
+         <Popular />
          {/* <Join /> */}
          <Newproduct />
          {/* <LassNews /> */}

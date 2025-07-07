@@ -1,16 +1,22 @@
-export default function Title() {
+import star from "../assets/icons/star.svg";
+
+export default function Title({ title }) {
    return (
       <>
-         <div className="h-[43px] w-[100%] flex-row-reverse py-[3.5rem] flex justify-between items-center">
-            <div className="w-[129px] h-[40px] bg-[#F9F9F9] rounded-[8px] flex items-center justify-center">
-               <span className="text-sky-600">مشاهده همه</span>
-            </div>
-            <div>
+         <div className="flex justify-between items-center px-2">
+            <div className="flex gap-x-2">
                <img
-                  src="http://www.w3.org/2000/svg"
-                  alt=""
+                  src={star}
+                  alt="star"
                />
-               <span className="text-[22px]">جدیدترین محصولات ما</span>
+               <span className="text-[clamp(14px,3vw,25px)] font-semibold">
+                  {title}
+               </span>
+            </div>
+            <div className="bg-background rounded-2xl py-4 px-2">
+               <button className="text-text text-[clamp(14px,3vw,18px)]">
+                  مشاهده همه
+               </button>
             </div>
          </div>
       </>

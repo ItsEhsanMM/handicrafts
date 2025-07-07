@@ -1,11 +1,14 @@
 import { useState } from "react";
 import star from "../assets/icons/star.svg";
 import { useEffect } from "react";
+import { imgs } from "../lib/const";
+import SwiperComponent from "./shared/Swiper";
 
 const Special = () => {
    const [hours, setHours] = useState(0);
    const [minutes, setMinutes] = useState(1);
    const [seconds, setSeconds] = useState(59);
+   const Ask = imgs[0].product;
 
    useEffect(() => {
       const timer = setInterval(() => {
@@ -52,7 +55,9 @@ const Special = () => {
                <span className="text-xs">ساعت</span>
             </div>
          </div>
-         <div></div>
+         <div className="w-full">
+            <SwiperComponent productDetail={Ask} />
+         </div>
       </section>
    );
 };
