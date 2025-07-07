@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+* {
+   /* outline: 1px solid red; */
+}
+
 @theme {
    --color-icon: #131313;
    --color-text: #333333;
