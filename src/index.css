@@ -20,6 +20,12 @@
    }
 }
 
+@layer utilities {
+   .ltr {
+     direction: rtl;
+   }
+ }
+
 .custom-container {
    max-width: 1300px;
    width: 90vw;
