@@ -25,7 +25,7 @@ function App() {
          <Join />
          <Newproduct />
          <LastNews />
-         {/* <Footer /> */}
+         <Footer />
       </div>
    );
 }
