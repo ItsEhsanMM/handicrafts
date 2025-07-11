@@ -4,6 +4,7 @@ import Footer from './Footer'
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { CiUser } from "react-icons/ci";
 import { blogs } from '../lib/const'
+import NewHeader from './NewHeader';
 export default function Weblog() {
     const slider = [1, 2, 3]
     const number = [1, 2, 3, 4, 5, 8, 9, 10]
@@ -11,7 +12,7 @@ export default function Weblog() {
         <>
             <div dir='rtl' className='custom-container'>
                 <header>
-                    <Header />
+                   <NewHeader />
                 </header>
                 <main>
                     <div>

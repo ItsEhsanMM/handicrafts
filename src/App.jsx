@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import LassNews from "./components/lastnews";
 import Newproduct from "./components/newproduct";
 import Join from "./components/join";
+import NewHeader from "./components/NewHeader";
 import Pupiuler from "./components/pupiuler";
 import Ghaly from "./components/ghaly";
 import Special from "./components/Special";
@@ -13,10 +14,12 @@ import Special from "./components/Special";
 function App() {
    return (
       <div
-         className="font-yekan custom-container bg-background flex flex-col space-y-20"
+         className="font-yekan custom-container bg-background flex flex-col space-y-10"
          dir="rtl"
       >
-         <Header />
+         {/* <MobileHeader /> */}
+         {/* <Header /> */}
+         <NewHeader />
          <MobileNav />
          <Hero />
          <Ghaly />
