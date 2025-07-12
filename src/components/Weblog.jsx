@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { FaArrowLeftLong } from "react-icons/fa6";
@@ -20,7 +19,7 @@ export default function Weblog() {
                <div>
                   <div className="flex justify-between flex-row-reverse">
                      <div className="w-[1019px] h-[460px] flex justify-between flex-wrap">
-                        {slider.map((slid) => (
+                        {slider.map(() => (
                            <div className="text-[#ffff]  w-[327px] relative flex justify-center max-w-[506px] h-[222px] rounded-2xl bg-green-400">
                               <img
                                  className="w-[100%] rounded-2xl h-[100%]"
@@ -85,7 +84,7 @@ export default function Weblog() {
                         <div className="border-dotted w-[100%] h-[1px] border-[1px]"></div>
                      </div>
                      <div className="pt-[4.5rem] flex flex-wrap justify-between gap-[.75rem]">
-                        {number.map((num) => (
+                        {number.map(() => (
                            <div className="w-[310px] h-[466px] border-[2px] border-zinc-200 rounded-2xl">
                               <div className="h-[200px]  w-[100%]">
                                  <img

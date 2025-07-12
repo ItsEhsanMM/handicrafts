@@ -36,28 +36,28 @@ export const footer = [
     },
     {
         title: " خدمات مشتریان",
-        subtitle: [ {
-                text: "   مرکز پشتیبانی"
-            }, {
-                text: "  قوانین و مقررات"
-            }, {
-                text: "  حریم خصوصی"
-            }, {
-                text: " راهنمای خرید"
-            }
+        subtitle: [{
+            text: "   مرکز پشتیبانی"
+        }, {
+            text: "  قوانین و مقررات"
+        }, {
+            text: "  حریم خصوصی"
+        }, {
+            text: " راهنمای خرید"
+        }
         ]
     },
     {
         title: "لینک های مفید",
         subtitle: [
-             {
-                text : "زیورآلات"
+            {
+                text: "زیورآلات"
             }, {
-                text :"سفالی و سرامیکی"
+                text: "سفالی و سرامیکی"
             }, {
-                text : "قالی دستباف"
+                text: "قالی دستباف"
             }, {
-                text : "چرم دست دوز"
+                text: "چرم دست دوز"
             }
         ]
     },
@@ -68,12 +68,12 @@ export const footer = [
 
 export const imgs = [
     {
-        product : [
+        product: [
             {
-                id : 1 , 
-                src : 'https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png' , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 1,
+                src: 'https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png',
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
             {
@@ -81,63 +81,65 @@ export const imgs = [
                 src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product17.webp" , 
                 price :  0 ,
                 name : "اینه مینا کاری"
+
             }
             ,
             {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/product-img20.png" , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 3,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/product-img20.png",
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
             {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product11-1.png" , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 4,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product11-1.png",
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
             {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product16.png" , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 5,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product16.png",
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
             {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product14.png" , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 6,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product14.png",
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
             {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png" , 
-                price :  1200000 ,
-                name : "اینه مینا کاری"
+                id: 7,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png",
+                price: 1200000,
+                name: "اینه مینا کاری"
             }
             ,
         ]
-    } ,
+    },
 
     {
-        mobile : [
+        mobile: [
             {
-                id : 1 , 
-                src : 'https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-11.jpg' , 
-                price :  1200000 ,
+                id: 1,
+                src: 'https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-11.jpg',
+                price: 1200000,
             }
             ,
             {
                 id: 2 ,
                 src : "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-10.jpg" , 
                 price :  0 ,
+
             }
             ,
             {
-                id: 3 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-9.jpg" , 
+                id: 3,
+                src: "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-9.jpg",
             }
         ]
     }
@@ -146,27 +148,61 @@ export const imgs = [
 
 export const blogs = [
     {
-        title : 'هنر و سینما'
+        title: 'هنر و سینما'
     },
     {
-        title : 'منتخب سردبیر'
+        title: 'منتخب سردبیر'
     },
     {
-        title : 'کتاب و ادبیات'
+        title: 'کتاب و ادبیات'
     },
     {
-        title : 'علم و تکنولوژی '
+        title: 'علم و تکنولوژی '
     },
     {
-        title : 'سبک زندگی'
+        title: 'سبک زندگی'
     },
     {
-        title : 'بررسی ویدئویی'
+        title: 'بررسی ویدئویی'
     },
     {
-        title : 'بازی ویدئویی '
+        title: 'بازی ویدئویی '
     },
     {
-        title : 'آنباکس محصولات '
+        title: 'آنباکس محصولات '
     },
+]
+
+
+export const linkHeader = [
+    {
+        id: 1,
+        title: "   صفحه اصلی "
+
+        ,
+        linkTo: "/"
+    },
+    {
+        id: 2,
+        title: " فروشگاه",
+        linkTo: "/shop"
+    },
+    {
+        id: 3,
+        title: "وبلاگ",
+        linkTo: "blog"
+    },
+    {
+        id:4,
+        title: "درباره ما",
+        linkTo: "about"
+    },
+    {
+        id: 5,
+        title: "تماس با ما",
+        linkTo: "content"
+    },
+
+
+
 ]
