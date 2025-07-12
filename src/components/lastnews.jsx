@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "./Title";
 import { imgs } from "../lib/const";
 
