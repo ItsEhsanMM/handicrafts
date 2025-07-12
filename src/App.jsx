@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Newproduct from "./components/newproduct";
 import Join from "./components/Newsletter";
 import Carpet from "./components/Carpet";
+import NewHeader from "./components/NewHeader";
+import Pupiuler from "./components/pupiuler";
 import Special from "./components/Special";
 import Popular from "./components/Popular";
 import LastNews from "./components/LastNews";
@@ -15,7 +17,9 @@ function App() {
          className="font-yekan custom-container bg-background flex flex-col space-y-10"
          dir="rtl"
       >
-         <Header />
+         {/* <MobileHeader /> */}
+         {/* <Header /> */}
+         <NewHeader />
          <MobileNav />
          <Hero />
          <Special />
