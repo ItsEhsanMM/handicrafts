@@ -1,14 +1,13 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobileNav from "./components/MobileNav";
-
 import Footer from "./components/Footer";
-import LastNews from "./components/LastNews";
 import Newproduct from "./components/newproduct";
 import Join from "./components/Newsletter";
 import Carpet from "./components/Carpet";
 import Special from "./components/Special";
 import Popular from "./components/Popular";
+import LastNews from "./components/LastNews";
 
 function App() {
    return (
