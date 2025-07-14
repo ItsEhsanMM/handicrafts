@@ -31,7 +31,12 @@ export default function Product(props) {
                   </>
                )}
             </div>
-            <AddProduct id={props.id} />
+            <AddProduct
+               id={props.id}
+               price={props.price}
+               name={props.name}
+               src={props.src}
+            />
          </div>
       </div>
    );

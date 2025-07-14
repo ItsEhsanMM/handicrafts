@@ -1,7 +1,7 @@
 import Title from "./title";
 import { imgs } from "../lib/const";
 
-const Ask = imgs[1].mobile;
+const Ask = imgs;
 
 export default function LastNews() {
    return (

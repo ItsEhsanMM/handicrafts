@@ -3,7 +3,7 @@ import { imgs } from "../lib/const";
 import NewProduct from "./newproduct";
 import tick from "../assets/icons/tick.svg";
 
-const products = imgs[0].product;
+const products = imgs;
 
 export default function ProductDetail() {
    const obj = [

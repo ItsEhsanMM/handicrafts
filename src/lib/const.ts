@@ -48,7 +48,6 @@ export const footer = [
 
 
 export const imgs = [
-    
             {
                 id: 1,
                 src: 'https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png',
@@ -100,28 +99,6 @@ export const imgs = [
             }
             ,
         
-
-    {
-        mobile: [
-            {
-                id: 1,
-                src: 'https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-11.jpg',
-                price: 1200000,
-            }
-            ,
-            {
-                id: 2 ,
-                src : "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-10.jpg" , 
-                price :  0 ,
-
-            }
-            ,
-            {
-                id: 3,
-                src: "https://presite.ir/Handicrafts/wp-content/uploads/2022/10/blog-new-9.jpg",
-            }
-        ]
-    }
 ]
 
 

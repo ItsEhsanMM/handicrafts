@@ -8,7 +8,7 @@ const Special = () => {
    const [hours, setHours] = useState(0);
    const [minutes, setMinutes] = useState(1);
    const [seconds, setSeconds] = useState(59);
-   const Ask = imgs[0].product;
+   const Ask = imgs;
 
    useEffect(() => {
       const timer = setInterval(() => {

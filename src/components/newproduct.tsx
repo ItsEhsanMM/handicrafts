@@ -5,7 +5,7 @@ import Product from "./product";
 import { imgs } from "../lib/const";
 import SwiperComponent from "./shared/Swiper";
 
-const Ask = imgs[0].product;
+const Ask = imgs;
 
 export default function Newproduct() {
    return (
