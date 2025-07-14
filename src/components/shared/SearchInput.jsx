@@ -2,7 +2,7 @@ import search from "../../assets/icons/search.svg";
 
 const SearchInput = () => {
    return (
-      <div className="flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2 w-full max-w-sm">
+      <div className="flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2 w-full">
          <input
             type="text"
             placeholder="جستجوی محصولات"

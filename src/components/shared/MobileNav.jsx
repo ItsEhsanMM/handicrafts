@@ -1,10 +1,10 @@
 import { Link, useLocation } from "react-router";
 /* eslint-disable-next-line no-unused-vars */
 import { AnimatePresence, motion } from "framer-motion";
-import Close from "../assets/icons/close.svg";
-import { navObj } from "../lib/const";
-import { useMobileNav } from "../stores/useMobileNav";
-import SearchInput from "./shared/SearchInput";
+import Close from "../../assets/icons/close.svg";
+import { linkHeader } from "../../lib/const";
+import { useMobileNav } from "../../stores/useMobileNav";
+import SearchInput from "./SearchInput";
 
 const overlayVariants = {
    hidden: { opacity: 0 },
@@ -69,18 +69,18 @@ const MobileNav = () => {
                      <SearchInput />
 
                      <div className="flex flex-col gap-y-[15px] px-5">
-                        {navObj.map((item) => (
+                        {linkHeader.map((item) => (
                            <Link
-                              to={item.path}
-                              key={item.path}
+                              to={item.linkTo}
+                              key={item.linkTo}
                               onClick={close}
                               className={`${
-                                 path.pathname === item.path
+                                 path.pathname === item.linkTo
                                     ? "text-primary"
                                     : "text-text"
                               } font-medium`}
                            >
-                              {item.lable}
+                              {item.title}
                            </Link>
                         ))}
                      </div>

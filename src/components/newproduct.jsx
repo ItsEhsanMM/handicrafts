@@ -11,7 +11,7 @@ export default function Newproduct() {
    return (
       <div className="flex flex-col gap-[1.5rem]">
          <Title title={"جدیدترین محصولات"} />
-         <div className="h-fit p-6 md:p-[55px] rounded-[29px] bg-[#44E4D1]">
+         <div className="h-fit px-8 py-10 rounded-2xl bg-primary">
             <SwiperComponent productDetail={Ask} />
          </div>
       </div>

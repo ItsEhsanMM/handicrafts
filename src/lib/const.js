@@ -1,22 +1,3 @@
-export const navObj = [{
-    path: "/",
-    lable: "صفحه اصلی"
-}, {
-    path: "/store",
-    lable: "فروشگاه"
-}, {
-    path: "/blog"
-    , lable: "وبلاگ"
-}, {
-    path: "/contact",
-    lable: "تماس با ما"
-}, {
-    path: "/about-us",
-    lable: "درباره ما"
-}]
-
-
-
 export const footer = [
     {
         title: " درباره سایت",
@@ -177,7 +158,7 @@ export const blogs = [
 export const linkHeader = [
     {
         id: 1,
-        title: "   صفحه اصلی "
+        title: "صفحه اصلی "
 
         ,
         linkTo: "/"
@@ -190,17 +171,17 @@ export const linkHeader = [
     {
         id: 3,
         title: "وبلاگ",
-        linkTo: "blog"
+        linkTo: "/blog"
     },
     {
         id:4,
         title: "درباره ما",
-        linkTo: "about"
+        linkTo: "/about"
     },
     {
         id: 5,
         title: "تماس با ما",
-        linkTo: "content"
+        linkTo: "/content"
     },
 
 

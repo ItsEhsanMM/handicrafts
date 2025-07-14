@@ -19,13 +19,12 @@
    h2 {
       @apply text-[23px] font-bold
    }
+
+   h3 {
+      @apply text-[21px] font-bold
+   }
 }
 
-@layer utilities {
-   .ltr {
-     direction: rtl;
-   }
- }
 
 .custom-container {
    max-width: 1300px;

@@ -1,17 +1,17 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
-import { footer } from "../lib/const";
+import { footer } from "../../lib/const";
 
 export default function Footer() {
    return (
-      <footer className="bg-green-300 rounded-[25px] px-6 py-10">
+      <footer className="bg-primary rounded-2xl px-6 py-10 mb-5 mt-20">
          {/* Top Section */}
-         <div className="flex flex-col lg:flex-row lg:justify-between lg:pl-20 gap-10 border-b-4 border-indigo-500 pb-10">
+         <div className="flex flex-col lg:flex-row lg:justify-between lg:pl-20 gap-10 border-b-2 border-background pb-10">
             {/* Brand and Description */}
             <div className="flex flex-col gap-4 max-w-xl">
                <div className="flex items-center gap-4">
                   <img
-                     className="w-[55px] h-[55px]"
+                     className="w-14"
                      src="https://presite.ir/Handicrafts/wp-content/uploads/2023/07/footer-logo.svg"
                      alt="لوگو"
                   />
@@ -34,10 +34,10 @@ export default function Footer() {
                      </span>
                   </div>
                   <div className="flex gap-4">
-                     <div className="size-[clamp(50px,5vw,150px)] rounded-md flex items-center justify-center bg-amber-400">
+                     <div className="size-[clamp(50px,5vw,150px)] rounded-md flex items-center justify-center bg-secondary">
                         <span className="text-xs">مجوز</span>
                      </div>
-                     <div className="size-[clamp(50px,5vw,150px)] rounded-md flex items-center justify-center bg-amber-400">
+                     <div className="size-[clamp(50px,5vw,150px)] rounded-md flex items-center justify-center bg-secondary">
                         <span className="text-xs">مجوز</span>
                      </div>
                   </div>
