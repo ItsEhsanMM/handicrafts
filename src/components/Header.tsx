@@ -14,7 +14,7 @@ const Header = () => {
       <header className="space-y-5">
          <div className="pt-5 flex items-center justify-between">
             <Button
-               className="block md:hidden"
+               className="block bg-transparent md:hidden"
                onClick={toggle}
             >
                <img

@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import { useCartStore } from "../stores/useCartStore";
 import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import Close from "@/assets/icons/close.svg";
 
 export default function Checkout() {
    const items = useCartStore((state) => state.items);
@@ -64,10 +66,13 @@ export default function Checkout() {
                         {/* Product Info (Image + Name + Remove Button) */}
                         <div className="flex items-center gap-4 col-span-3">
                            <Button
-                              className="text-xl text-red-500"
+                              className="text-xl shadow-none border-none bg-transparent cursor-pointer"
                               onClick={() => removeItem(product.id)}
                            >
-                              ×
+                              <img
+                                 src={Close}
+                                 alt="close"
+                              />
                            </Button>
                            <img
                               className="w-14 h-14 object-cover rounded"
@@ -124,13 +129,13 @@ export default function Checkout() {
                </div>
 
                {/* Discount Code */}
-               <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 p-6 rounded-[12px] bg-[#F9F9F9] border border-gray-300">
-                  <input
-                     className="flex-1 p-2  rounded-lg indent-2 border border-zinc-500 outline-none"
+               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-6 rounded-xl bg-background border border-gray-300">
+                  <Input
+                     className="flex-1 rounded-lg indent-2 border border-zinc-500 outline-none"
                      placeholder="کد تخفیف"
                      type="text"
                   />
-                  <Button className="py-2 w-full bg-primary rounded-[9px] text-white">
+                  <Button className="bg-primary rounded-lg text-white">
                      اعمال کد تخفیف
                   </Button>
                </div>
