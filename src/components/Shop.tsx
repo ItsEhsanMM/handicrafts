@@ -2,6 +2,7 @@ import { useState } from "react";
 import { imgs } from "../lib/const";
 import Product from "./product";
 import SearchInput from "./shared/SearchInput";
+import { Button } from "./ui/button";
 
 let Aks = imgs;
 
@@ -16,9 +17,9 @@ export default function Shop() {
                {/* سرچ */}
                <div className="w-full flex flex-col gap-4">
                   <SearchInput />
-                  <button className="w-full h-11 bg-primary text-white rounded-lg shadow">
+                  <Button className="w-full h-11 bg-primary text-white rounded-lg shadow">
                      اعمال فیلتر
-                  </button>
+                  </Button>
                </div>
 
                <div className="w-full text-right font-medium text-text">
@@ -113,9 +114,9 @@ export default function Shop() {
                      <option>فرش دستباف، گلیم و حصیر</option>
                      <option>فرش دستباف، گلیم و حصیر</option>
                   </select>
-                  <button className="w-full h-11 bg-primary text-white rounded-lg shadow mt-4">
+                  <Button className="w-full h-11 bg-primary text-white rounded-lg shadow mt-4">
                      اعمال فیلتر
-                  </button>
+                  </Button>
                </div>
             </div>
          </aside>

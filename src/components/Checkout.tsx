@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { useCartStore } from "../stores/useCartStore";
+import { Button } from "./ui/button";
 
 export default function Checkout() {
    const items = useCartStore((state) => state.items);
@@ -35,9 +36,9 @@ export default function Checkout() {
                   </span>
                   تومان
                </div>
-               <button className="h-[55px] rounded-[12px] bg-primary hover:bg-zinc-600 text-amber-50">
+               <Button className="h-[55px] rounded-[12px] bg-primary hover:bg-zinc-600 text-amber-50">
                   ادامه جهت تسویه حساب
-               </button>
+               </Button>
             </div>
 
             {/* Cart Items + Coupon */}
@@ -62,12 +63,12 @@ export default function Checkout() {
                      >
                         {/* Product Info (Image + Name + Remove Button) */}
                         <div className="flex items-center gap-4 col-span-3">
-                           <button
+                           <Button
                               className="text-xl text-red-500"
                               onClick={() => removeItem(product.id)}
                            >
                               ×
-                           </button>
+                           </Button>
                            <img
                               className="w-14 h-14 object-cover rounded"
                               src={product.src}
@@ -129,9 +130,9 @@ export default function Checkout() {
                      placeholder="کد تخفیف"
                      type="text"
                   />
-                  <button className="py-2 w-full bg-primary rounded-[9px] text-white">
+                  <Button className="py-2 w-full bg-primary rounded-[9px] text-white">
                      اعمال کد تخفیف
-                  </button>
+                  </Button>
                </div>
             </div>
          </div>

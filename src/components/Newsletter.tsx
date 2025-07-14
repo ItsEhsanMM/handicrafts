@@ -1,4 +1,5 @@
 import media from "../assets/icons/media-left.svg";
+import { Button } from "./ui/button";
 
 export default function Newsletter() {
    return (
@@ -20,7 +21,7 @@ export default function Newsletter() {
                      className="w-full h-[clamp(2.5rem,6vw,4rem)] border-none outline-none px-4 text-text"
                   />
                </div>
-               <button
+               <Button
                   type="submit"
                   className="bg-primary flex items-center justify-center rounded-xl px-4 h-[clamp(2.5rem,6vw,4rem)]"
                >
@@ -28,7 +29,7 @@ export default function Newsletter() {
                      src={media}
                      alt="media left"
                   />
-               </button>
+               </Button>
             </form>
          </div>
       </div>

@@ -57,17 +57,14 @@ function About() {
                <div className="container mx-auto px-4 py-10 bg-white">
                   {/* معرفی فروشگاه */}
                   <section
-                     className="flex flex-col md:flex-row-reverse items-center justify-between gap-8"
+                     className="flex flex-col md:flex-row-reverse h-150 items-center justify-between gap-8"
                      aria-label="معرفی فروشگاه"
                   >
-                     <div style={styles.textContainer}>
-                        <h1 style={styles.title}>
-                           درباره{" "}
-                           <span style={styles.highlighted}>
-                              فروشگاه صنایع دستی
-                           </span>
+                     <div>
+                        <h1>
+                           درباره <span>فروشگاه صنایع دستی</span>
                         </h1>
-                        <p style={styles.paragraph}>
+                        <p>
                            فروشگاه ما با هدف ترویج فرهنگ و هنر ایرانی، محصولات
                            دست‌ساز با کیفیت عالی ارائه می‌دهد...
                         </p>
@@ -87,11 +84,10 @@ function About() {
                         </div>
                      </div>
 
-                     <div style={styles.imageContainer}>
+                     <div>
                         <img
                            src="https://presite.ir/Handicrafts/wp-content/uploads/2023/07/contact-hero-img.jpg"
                            alt="تصویری از هنر صنایع دستی ایرانی"
-                           style={styles.image}
                         />
                      </div>
                   </section>
@@ -130,38 +126,5 @@ function About() {
       </>
    );
 }
-
-// Inline styles
-const styles = {
-   textContainer: {
-      textAlign: "right",
-      maxWidth: "600px",
-      paddingRight: "12px",
-      paddingLeft: "12px",
-      fontSize: "clamp(1rem, 2.5vw, 1.5rem)",
-   },
-   title: {
-      fontSize: "clamp(1.5rem, 4vw, 2.5rem)",
-      color: "#000",
-      marginBottom: "20px",
-   },
-   highlighted: {
-      color: "#4461e4",
-   },
-   paragraph: {
-      fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
-      lineHeight: "1.6",
-      marginBottom: "20px",
-   },
-   imageContainer: {
-      textAlign: "center",
-      width: "100%",
-      maxWidth: "550px",
-   },
-   image: {
-      width: "100%",
-      height: "auto",
-   },
-};
 
 export default About;

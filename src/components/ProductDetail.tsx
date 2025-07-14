@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router";
 import { imgs } from "../lib/const";
 import NewProduct from "./newproduct";
 import tick from "../assets/icons/tick.svg";
+import { Button } from "./ui/button";
 
 const products = imgs;
 
@@ -108,9 +109,9 @@ export default function ProductDetail() {
                      <div className="flex justify-between items-center text-lg font-bold mb-2">
                         {product.price}
                      </div>
-                     <button className="w-full py-2 rounded-xl bg-primary text-white text-sm font-medium">
+                     <Button className="w-full py-2 rounded-xl bg-primary text-white text-sm font-medium">
                         افزودن به سبد خرید
-                     </button>
+                     </Button>
                   </div>
                </div>
             </div>

@@ -3,6 +3,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Link } from "react-router";
+import { Button } from "./ui/button";
 
 const info = [
    {
@@ -74,7 +75,7 @@ const Hero = () => {
                      <p className="text-[14px] px-5">{item.description}</p>
                      <Link
                         className="bg-primary text-text hover:bg-secondary transition-colors py-2 px-4 rounded-xl"
-                        to={"/"}
+                        to={"/shop"}
                      >
                         مشاهده فروشگاه
                      </Link>
@@ -82,19 +83,19 @@ const Hero = () => {
                </SwiperSlide>
             ))}
          </Swiper>
-         <button className="prev-el absolute top-1/2 right-0 z-10">
+         <Button className="prev-el absolute top-1/2 right-0 z-10">
             <img
                src="/src/assets/icons/prev-el.svg"
                alt="prev"
             />
-         </button>
+         </Button>
 
-         <button className="next-el absolute top-1/2 left-0 z-10">
+         <Button className="next-el absolute top-1/2 left-0 z-10">
             <img
                src="/src/assets/icons/next-el.svg"
                alt="next"
             />
-         </button>
+         </Button>
       </div>
    );
 };

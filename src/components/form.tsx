@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./ui/button";
 
 export default function Form() {
    return (
@@ -25,9 +26,9 @@ export default function Form() {
                className="bg-background rounded-2xl w-full h-38 resize-none"
             />
             <div className="w-full flex justify-end">
-               <button className="bg-primary px-4 py-2  rounded-lg flex items-center justify-center">
+               <Button className="bg-primary px-4 py-2  rounded-lg flex items-center justify-center">
                   <span>ارسال</span>
-               </button>
+               </Button>
             </div>
          </div>
       </>

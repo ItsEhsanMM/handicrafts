@@ -5,6 +5,7 @@ import shop from "../assets/icons/shop.svg";
 import Navbar from "./shared/Navbar";
 import SearchInput from "./shared/SearchInput";
 import { Link } from "react-router";
+import { Button } from "./ui/button";
 
 const Header = () => {
    const { toggle } = useMobileNav();
@@ -12,7 +13,7 @@ const Header = () => {
    return (
       <header className="space-y-5">
          <div className="pt-5 flex items-center justify-between">
-            <button
+            <Button
                className="block md:hidden"
                onClick={toggle}
             >
@@ -20,7 +21,7 @@ const Header = () => {
                   src={menu}
                   alt="menu"
                />
-            </button>
+            </Button>
             <Link to={"/"}>
                <img
                   src="/Logo.svg"
@@ -34,10 +35,15 @@ const Header = () => {
                <div className="hidden lg:block w-sm">
                   <SearchInput />
                </div>
-               <img
-                  src={user}
-                  alt="account"
-               />
+               <Link
+                  to="my-account"
+                  className="cursor-pointer"
+               >
+                  <img
+                     src={user}
+                     alt="account"
+                  />
+               </Link>
                <Link
                   to={"/checkout"}
                   className="cursor-pointer"

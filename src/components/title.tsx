@@ -1,4 +1,5 @@
 import star from "../assets/icons/star.svg";
+import { Button } from "./ui/button";
 
 export default function Title({ title }) {
    return (
@@ -14,9 +15,9 @@ export default function Title({ title }) {
                </span>
             </div>
             <div className="bg-background rounded-2xl py-4 px-2">
-               <button className="text-text text-[clamp(14px,3vw,18px)]">
+               <Button className="text-text text-[clamp(14px,3vw,18px)]">
                   مشاهده همه
-               </button>
+               </Button>
             </div>
          </div>
       </>
