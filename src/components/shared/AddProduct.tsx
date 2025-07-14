@@ -1,17 +1,21 @@
 import Shop from "../../assets/icons/shop.svg";
-import { CartItem, useCartStore } from "../../stores/useCartStore";
+import { useCartStore } from "../../stores/useCartStore";
 
-const AddProduct = (productId: number) => {
+type Props = {
+   id: number;
+};
+
+const AddProduct = ({ id }: Props) => {
    const item = useCartStore((state) => state.addItem);
    return (
       <button
          onClick={() =>
             item({
-               id: productId,
+               id,
                quantity: 1,
             })
          }
-         className="flex items-center px-4 py-2 gap-x-2 bg-primary rounded-lg"
+         className="flex items-center px-4 py-2 gap-x-2 bg-primary rounded-lg cursor-pointer"
       >
          <span className="text-sm">افزودن به</span>
          <img
