@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./title";
 import { imgs } from "../lib/const";
 
 const Ask = imgs[1].mobile;

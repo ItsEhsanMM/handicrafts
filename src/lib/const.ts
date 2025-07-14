@@ -48,8 +48,7 @@ export const footer = [
 
 
 export const imgs = [
-    {
-        product: [
+    
             {
                 id: 1,
                 src: 'https://presite.ir/Handicrafts/wp-content/uploads/2023/07/handicrafts-product15.png',
@@ -100,8 +99,7 @@ export const imgs = [
                 name: "اینه مینا کاری"
             }
             ,
-        ]
-    },
+        
 
     {
         mobile: [

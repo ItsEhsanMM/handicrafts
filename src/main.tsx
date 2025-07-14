@@ -1,15 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
-import Shop from "./components/Shop.jsx";
-import Weblog from "./components/Weblog.jsx";
-import About from "./components/about.jsx";
-import ContentUS from "./components/content-us.jsx";
+import App from "./App.js";
+import Shop from "./components/Shop.js";
+import Weblog from "./components/Weblog.js";
+import About from "./components/about.js";
+import ContentUS from "./components/content-us.js";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import ProductDetail from "./components/ProductDetail.jsx";
-import Ozviyat from "./components/ozviyat.jsx";
-import Checkout from "./components/Checkout.jsx";
+import ProductDetail from "./components/ProductDetail.js";
+import Ozviyat from "./components/ozviyat.js";
+import Checkout from "./components/Checkout.js";
 import Layout from "./components/Layout.jsx";
 
 const router = createBrowserRouter([

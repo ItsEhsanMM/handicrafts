@@ -3,7 +3,7 @@ import { imgs } from "../lib/const";
 import Product from "./product";
 import SearchInput from "./shared/SearchInput";
 
-let Aks = imgs[0].product;
+let Aks = imgs;
 
 export default function Shop() {
    const [minPrice, setMinPrice] = useState(0);

@@ -1,5 +1,5 @@
 import { imgs } from "../lib/const";
-import Title from "./Title";
+import Title from "./title";
 import SwiperComponent from "./shared/Swiper";
 export default function Popular() {
    const Ask = imgs[0].product;

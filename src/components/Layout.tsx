@@ -1,6 +1,6 @@
-import Header from "./Header.jsx";
-import MobileNav from "./shared/MobileNav.jsx";
-import Footer from "./shared/Footer.jsx";
+import Header from "./Header.js";
+import MobileNav from "./shared/MobileNav.js";
+import Footer from "./shared/Footer.js";
 import { Outlet } from "react-router";
 
 export default function Layout() {

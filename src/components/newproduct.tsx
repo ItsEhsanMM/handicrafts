@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./title";
 import Product from "./product";
 // Import Swiper React components
 
