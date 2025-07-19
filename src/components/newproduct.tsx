@@ -1,7 +1,4 @@
 import Title from "./title";
-import Product from "./product";
-// Import Swiper React components
-
 import { imgs } from "../lib/const";
 import SwiperComponent from "./shared/Swiper";
 

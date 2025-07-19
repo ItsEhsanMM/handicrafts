@@ -1,7 +1,11 @@
 import star from "../assets/icons/star.svg";
 import { Button } from "./ui/button";
 
-export default function Title({ title }) {
+interface Props {
+   title: string;
+}
+
+export default function Title({ title }: Props) {
    return (
       <>
          <div className="flex justify-between items-center px-2">

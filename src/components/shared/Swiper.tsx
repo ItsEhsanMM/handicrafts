@@ -2,7 +2,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Product from "../product";
 
-const SwiperComponent = ({ productDetail }) => {
+interface Props {
+   productDetail: {
+      id: number;
+      src: string;
+      price: number;
+      name: string;
+   }[];
+}
+
+const SwiperComponent = ({ productDetail }: Props) => {
    return (
       <Swiper
          spaceBetween={20}

@@ -1,9 +1,9 @@
-import Header from "./Header.js";
-import MobileNav from "./shared/MobileNav.js";
-import Footer from "./shared/Footer.js";
+import Header from "./Header";
+import MobileNav from "./shared/MobileNav";
+import Footer from "./shared/Footer";
 import { Outlet } from "react-router";
 import { ToastContainer } from "react-toastify";
-import PhoneInputModal from "./PhoneInputModal.js";
+import PhoneInputModal from "./PhoneInputModal";
 
 export default function Layout() {
    return (

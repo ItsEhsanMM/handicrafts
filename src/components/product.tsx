@@ -1,7 +1,14 @@
 import { Link } from "react-router";
 import AddProduct from "./shared/AddProduct";
 
-export default function Product(props) {
+interface Props {
+   id: number;
+   src: string;
+   price: number;
+   name: string;
+}
+
+export default function Product(props: Props) {
    const isFree = props.price === 0;
 
    return (

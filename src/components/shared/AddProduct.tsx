@@ -13,7 +13,8 @@ type Props = {
 const AddProduct = ({ id, price, name, src }: Props) => {
    const add = useCartStore((state) => state.addItem);
 
-   const notify = (name) => toast.success(name + " به سبد خرید اضاف شد");
+   const notify = (name: string) =>
+      toast.success(name + " به سبد خرید اضاف شد");
 
    return (
       <Button

@@ -1,16 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.js";
-import Shop from "./components/Shop.js";
-import Weblog from "./components/Weblog.js";
-import About from "./components/about.js";
-import ContentUS from "./components/content-us.js";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import ProductDetail from "./components/ProductDetail.js";
-import Login from "./components/PhoneInputModal.js";
-import Checkout from "./components/Checkout.js";
-import Layout from "./components/Layout.jsx";
+import Layout from "./components/Layout";
+import App from "./App";
+import Shop from "./components/Shop";
+import ProductDetail from "./components/ProductDetail";
+import Weblog from "./components/Weblog";
+import About from "./components/about";
+import ContentUS from "./components/content-us";
+import Checkout from "./components/Checkout";
 
 const router = createBrowserRouter([
    {
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
    },
 ]);
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")!).render(
    <StrictMode>
       <RouterProvider router={router} />
    </StrictMode>

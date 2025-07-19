@@ -30,7 +30,7 @@ const Special = () => {
    }, [hours, minutes, seconds]);
 
    // Add leading zeros
-   const format = (num) => String(num).padStart(2, "0");
+   const format = (num: number) => String(num).padStart(2, "0");
 
    return (
       <section className="bg-secondary/75 rounded-xl p-5 flex flex-col items-center">
