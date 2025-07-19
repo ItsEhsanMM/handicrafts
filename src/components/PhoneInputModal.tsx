@@ -46,7 +46,7 @@ export default function PhoneInputModal() {
                      onClick={(e) => e.stopPropagation()}
                   >
                      <Button
-                        className="absolute left-4 top-4 text-gray-500 hover:text-red-500 transition bg-transparent hover:bg-transparent cursor-pointer"
+                        className="absolute left-4 top-4 text-gray-500 hover:text-red-500 shadow-none transition bg-transparent hover:bg-transparent cursor-pointer"
                         onClick={closeModal}
                      >
                         <X className="w-5 h-5" />

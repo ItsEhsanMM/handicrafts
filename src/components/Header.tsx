@@ -7,10 +7,13 @@ import SearchInput from "./shared/SearchInput";
 import { Link } from "react-router";
 import { Button } from "./ui/button";
 import { useModalStore } from "@/stores/useModalStore";
+import { Badge } from "./ui/badge";
+import { useCartStore } from "@/stores/useCartStore";
 
 const Header = () => {
    const { toggle } = useMobileNav();
    const { openModal } = useModalStore();
+   const { items } = useCartStore();
 
    return (
       <header className="space-y-5">
@@ -48,12 +51,18 @@ const Header = () => {
                </Button>
                <Link
                   to={"/checkout"}
-                  className="cursor-pointer"
+                  className="cursor-pointer relative"
                >
                   <img
                      src={shop}
                      alt="shop"
                   />
+                  <Badge
+                     className="absolute size-3 text-[10px] rounded-full -bottom-2 -right-2 "
+                     variant={"secondary"}
+                  >
+                     {items.length}
+                  </Badge>
                </Link>
             </div>
          </div>
