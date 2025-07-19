@@ -1,6 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { footer } from "../../lib/const";
+import { Link } from "react-router";
 
 export default function Footer() {
    return (
@@ -87,7 +88,7 @@ export default function Footer() {
                      <FaPhone className="text-lg" />
                      <h3 className="font-bold">شماره تماس:</h3>
                   </div>
-                  <span>021-12345678</span>
+                  <Link to={"tel:+9802112345678"}>021-12345678</Link>
                </div>
             </div>
             {/* Copyright */}
