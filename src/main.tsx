@@ -8,7 +8,7 @@ import About from "./components/about.js";
 import ContentUS from "./components/content-us.js";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import ProductDetail from "./components/ProductDetail.js";
-import Login from "./components/Login.js";
+import Login from "./components/PhoneInputModal.js";
 import Checkout from "./components/Checkout.js";
 import Layout from "./components/Layout.jsx";
 
@@ -23,7 +23,6 @@ const router = createBrowserRouter([
          { path: "blog", element: <Weblog /> },
          { path: "about", element: <About /> },
          { path: "content", element: <ContentUS /> },
-         { path: "my-account", element: <Login /> },
          { path: "checkout", element: <Checkout /> },
       ],
    },

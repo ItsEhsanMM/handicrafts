@@ -3,6 +3,7 @@ import MobileNav from "./shared/MobileNav.js";
 import Footer from "./shared/Footer.js";
 import { Outlet } from "react-router";
 import { ToastContainer } from "react-toastify";
+import PhoneInputModal from "./PhoneInputModal.js";
 
 export default function Layout() {
    return (
@@ -24,6 +25,7 @@ export default function Layout() {
          />
          <div className="custom-container">
             <Header />
+            <PhoneInputModal />
             <MobileNav />
             <Outlet />
             <Footer />

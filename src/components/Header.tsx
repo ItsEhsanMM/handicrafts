@@ -6,9 +6,11 @@ import Navbar from "./shared/Navbar";
 import SearchInput from "./shared/SearchInput";
 import { Link } from "react-router";
 import { Button } from "./ui/button";
+import { useModalStore } from "@/stores/useModalStore";
 
 const Header = () => {
    const { toggle } = useMobileNav();
+   const { openModal } = useModalStore();
 
    return (
       <header className="space-y-5">
@@ -35,15 +37,15 @@ const Header = () => {
                <div className="hidden lg:block w-sm">
                   <SearchInput />
                </div>
-               <Link
-                  to="my-account"
-                  className="cursor-pointer"
+               <Button
+                  onClick={openModal}
+                  className="cursor-pointer bg-transparent hover:bg-transparent shadow-none"
                >
                   <img
                      src={user}
                      alt="account"
                   />
-               </Link>
+               </Button>
                <Link
                   to={"/checkout"}
                   className="cursor-pointer"
